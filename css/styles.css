@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.top-container{
+    background-color:#EAF8F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.profile-img{
+    width: 15%;
+}
+
+.skills-img{
+    height:30%;
+    width:30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.gaming-img{
+    height: 22%;
+    width:22%;
+    float: right;
+    margin-left: 30px;
+}
+
+.mountain-img{
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+
+.middle-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+    
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position:absolute;
+    right:300px;
+    top:50px;
+    width:10%;
+
+}
+.bottom-cloud{
+    position:absolute;
+    left:300px;
+    bottom:500px;
+    width:10%;
+
+}
+
+a{
+    color: #03484a;
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+}
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.copyright-text{
+    color:#ffffff;
+    font-size: 16px;
+}
+
+p{
+    color:#031f1a
+}
+
+hr{
+    border-style: dotted;
+    border-width: 10px 0 0 0;
+    width: 10%;
+    border-color: #EAF6F6;
+    margin: 100px auto 100px auto;
+
+}
+
+.btn {
+    background: #11cdd4 ;
+    background-image: -webkit-linear-gradient(top, #11cdd4 , #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4 , #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4 , #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4 , #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4 , #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.contact-text{
+    margin-bottom: 70px;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+.skills-and-hobbies{
+    margin-bottom: 30px;
+}
